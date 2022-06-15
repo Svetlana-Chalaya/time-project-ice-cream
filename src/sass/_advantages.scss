@@ -2,6 +2,14 @@
   background-color: #fff5f6;
 }
 
+.advantages_title {
+  position: relative;
+  bottom: 40px;
+  @media screen and (min-width: 1280px) {
+    bottom: 60px;
+  }
+}
+
 .advantages_list {
   display: flex;
   flex-wrap: wrap;
